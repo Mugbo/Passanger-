@@ -40,7 +40,7 @@ public class Passenger {
     public void setName(String name) {
         int nameStringSize = name.length();
 
-        if( nameStringSize  >= 10  ){
+        if( nameStringSize  >= 3  ){
             Name = name;
         }
         else{
@@ -53,7 +53,7 @@ public class Passenger {
     }
 
     public void setID(String id) {
-        int idStringSize = ID.length();
+        int idStringSize = id.length();
 
         if( idStringSize  >= 10  ){
              ID = id;
