@@ -24,7 +24,7 @@ public class Passenger {
 
     public void setTitle(String title) {
 
-        if(title == "Mr" || title == "Ms" || title == "Ms"){
+        if(title == "Mr" || title == "Ms" || title == "Mrs"){
             Title = title;
         }
         else{
